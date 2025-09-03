@@ -27,21 +27,35 @@ A modern, responsive, full-stack note-taking application built with **React**, *
 - JWT for authentication  
 
 ## Project Structure
-- frontend
-- backend
+- root
+- ├── frontend
+- └── backend
 
-- clone the repository
-  
+
+
+---
+
+## Setup Instructions
+
+### Clone Repository
+```
+git clone <repository-url>
+cd <repository-folder>
+```
+
 ## frontend setup
+```
 - cd frontend
-- npm  i
+- npm install @tailwindcss/vite axios lucide-react react react-dom react-router-dom tailwindcss
 - make a .env file in root
 - VITE_API_BASE_URL=http://localhost:5000
-
+```
 ## backend setup
+```
 - cd backend
-- npm i
+- npm install bcryptjs cors dotenv express express-session express-validator jsonwebtoken mongoose nodemailer
 # .env in root and add these below configurations
+
 ## MongoDB Connection
 - MONGODB_URL="........................."
 
@@ -61,5 +75,5 @@ A modern, responsive, full-stack note-taking application built with **React**, *
 
 ## Frontend URL
 - CLIENT_URL=http://localhost:5173
-
+```
 
