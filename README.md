@@ -5,6 +5,9 @@ A modern, responsive, full-stack note-taking application built with **React**, *
 - backend deploy url : https://note-app-backend-aa2h.onrender.com
 - frontend deploy url : https://note-app-frontend-a64y.onrender.com
 
+-- Screenshot
+<img width="940" height="546" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/91c5fb1a-7272-4067-bf95-035d47884b17" />
+
 ## Features
 - User registration and login via **Email + OTP**  
 - Login via **Google OAuth 2.0**  
